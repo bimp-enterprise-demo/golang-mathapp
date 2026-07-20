@@ -1,4 +1,4 @@
-FROM docker.io/library/golang:1.20
+FROM docker.io/library/golang:1.21
 
 RUN go install github.com/beego/bee/v2@latest
 
